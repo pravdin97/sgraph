@@ -1,0 +1,24 @@
+digraph{
+8 [label="index=8, tr=12.0, tp=12.0, R=0.0"];
+2 [label="index=2, tr=2.0, tp=4.0, R=2.0"];
+17 [label="index=17, tr=10.0, tp=10.0, R=0.0"];
+10 [label="index=10, tr=0.0, tp=0.0, R=0.0"];
+6 [label="index=6, tr=8.0, tp=8.0, R=0.0"];
+3 [label="index=3, tr=4.0, tp=4.0, R=0.0"];
+14 [label="index=14, tr=7.0, tp=7.0, R=0.0"];
+15 [label="index=15, tr=5.0, tp=10.0, R=5.0"];
+15->8 [label="tau=2, Rp=5.0, Rs=0.0" color= black];
+14->6 [label="tau=1, Rp=0.0, Rs=0.0" color= red];
+10->2 [label="tau=2, Rp=2.0, Rs=0.0" color= black];
+17->8 [label="tau=2, Rp=0.0, Rs=0.0" color= red];
+3->14 [label="tau=3, Rp=0.0, Rs=0.0" color= red];
+2->15 [label="tau=3, Rp=5.0, Rs=-2.0" color= black];
+10->14 [label="tau=5, Rp=2.0, Rs=2.0" color= black];
+2->6 [label="tau=4, Rp=2.0, Rs=0.0" color= black];
+10->3 [label="tau=4, Rp=0.0, Rs=0.0" color= red];
+6->8 [label="tau=4, Rp=0.0, Rs=0.0" color= red];
+3->6 [label="tau=2, Rp=2.0, Rs=2.0" color= black];
+6->17 [label="tau=1, Rp=1.0, Rs=1.0" color= black];
+3->17 [label="tau=6, Rp=0.0, Rs=0.0" color= red];
+
+}
